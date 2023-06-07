@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Run All": {
+      "commandName": "Project",
+      "commandLineArgs": "-a enc_d2vsystem_package_134.100.220927.zip"
+    },
+    "Extract and Decrypt": {
+      "commandName": "Project",
+      "commandLineArgs": "-x -d enc_d2vsystem_package_134.100.220927.zip"
+    },
+    "Calculate Hashes and Create Zip": {
+      "commandName": "Project",
+      "commandLineArgs": "-c -z enc_d2vsystem_package_134.100.220927.zip"
+    }
+  }
+}
