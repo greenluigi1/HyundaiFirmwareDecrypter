@@ -11,7 +11,7 @@ namespace HyundaiFirmwareDecrypter.ProcessSteps
     {
         public string Name => "Install ADB Backdoor";
 
-        public string Description => "Enables the Android Debug Bridge TCP server which can be used to access a root shell. Needs to be run as root.";
+        public string Description => "Enables the Android Debug Bridge TCP server which can be used to access a root shell. Needs to be run as root/with sudo.";
 
         public string Argument => "-i";
         public int Order => 3;
